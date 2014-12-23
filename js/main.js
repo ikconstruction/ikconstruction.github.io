@@ -78,6 +78,16 @@ function initalizeScrolltoFixed() {
     });
 }
 
+function initalizeImageGalleries() {
+    $('.gallery').tn3({
+        autoplay : true,
+        mode : "numbers",
+        inactive : ['thumbs', 'next-page', 'prev-page', 'show-albums'],
+
+   });    
+}
+
+
 
 $(function initalize() {
     open_modal();
@@ -85,4 +95,5 @@ $(function initalize() {
     navigate_to();
     handle_primary_CTA();
     initalizeScrolltoFixed();
+    initalizeImageGalleries();
 });

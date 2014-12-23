@@ -137,8 +137,7 @@ header {
     width: 100%;  
     background: #FFFFFF;
     position: relative;
-    max-height: 100%;
-    overflow: hidden;
+
     
     .hero-overlay {
         position: absolute;
@@ -147,7 +146,6 @@ header {
         height: 100%;
         width: 100%;
         z-index: 100;
-        background: rgba(0,0,0,.1);
     }
     
     .hero-copy {
@@ -384,16 +382,27 @@ header {
     top: -143;
 }
 
+.news-spotlight-photo {
+    float: right;
+    width: 300px;
+    margin: 0 0 20px 20px;
+}
+
 .news-footer {
-    margin-top: 40px;
+    margin-top: 20px;
     padding-top: 20px;
     border-top: 1px solid #EDEDED;
+    margin-bottom: 80px;
 
     img {
         width: 200px;
     }
 
 
+}
+
+.news-footer:last-child {
+    margin-bottom: 0;
 }
 
 
@@ -454,6 +463,12 @@ footer {
         }
  
 
+.gallery {
+    .tn3-gallery {
+        float: none !important;
+        margin: 40px auto !important;
+    }
+}
     
 
  

@@ -99,17 +99,14 @@ header {
 .hero {
   width: 100%;
   background: #FFFFFF;
-  position: relative;
-  max-height: 100%;
-  overflow: hidden; }
+  position: relative; }
   .hero .hero-overlay {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    z-index: 100;
-    background: rgba(0, 0, 0, 0.1); }
+    z-index: 100; }
   .hero .hero-copy {
     top: 30%;
     position: absolute;
@@ -262,12 +259,21 @@ header {
   position: relative;
   top: -143; }
 
+.news-spotlight-photo {
+  float: right;
+  width: 300px;
+  margin: 0 0 20px 20px; }
+
 .news-footer {
-  margin-top: 40px;
+  margin-top: 20px;
   padding-top: 20px;
-  border-top: 1px solid #EDEDED; }
+  border-top: 1px solid #EDEDED;
+  margin-bottom: 80px; }
   .news-footer img {
     width: 200px; }
+
+.news-footer:last-child {
+  margin-bottom: 0; }
 
 footer {
   background: #111111;
@@ -302,5 +308,9 @@ footer {
     width: 200px; }
   .certifications img:first-child {
     margin-right: 20px; }
+
+.gallery .tn3-gallery {
+  float: none !important;
+  margin: 40px auto !important; }
 
 /*# sourceMappingURL=main.css.map */
