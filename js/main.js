@@ -87,6 +87,13 @@ function initalizeImageGalleries() {
    });    
 }
 
+function handleLogoClick() {
+    $('.logo').click(function(evt) {
+        evt.stopImmediatePropagation();
+        window.location = 'index.html';
+    });
+}
+
 
 
 $(function initalize() {
@@ -94,6 +101,7 @@ $(function initalize() {
     close_modal();
     navigate_to();
     handle_primary_CTA();
-    initalizeScrolltoFixed();
+    // initalizeScrolltoFixed();
     initalizeImageGalleries();
+    handleLogoClick();
 });
